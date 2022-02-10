@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <title>NewsLetter - SignUp</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/sign-in/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="signin.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form action="/" method="post">
+        <img class="mb-4" src="/images/profile.png" alt="" width="150" />
+        <h1 class="h3 mb-3 fw-normal">SignUp to my NewsLetter!</h1>
+        <input
+          type="text"
+          class="form-control"
+          id="fname"
+          placeholder="First Name"
+          name="firstName"
+        />
+        <input
+          type="text"
+          class="form-control"
+          id="lname"
+          placeholder="Last Name"
+          name="lastName"
+        />
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="name@example.com"
+          name="emailID"
+        />
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign Me Up!
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; Kaushik Sharma</p>
+      </form>
+    </main>
+  </body>
+</html>
